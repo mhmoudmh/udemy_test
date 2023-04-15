@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 
-st.write("Author:@Mahmoud Elgizawy")
+st.write("credit:@Mahmoud Elgizawy")
 st.title("Udemy Course Eda")
 df = pd.read_csv("udemy_courses.csv")
 st.dataframe(df.head())
